@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+section{
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font: normal 40pt arial;
+    font-weight: 800;
+    padding: 8rem 0;
+}
+section button{
+    padding: 1rem;
+    width: 150px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: none;
+}
+#start{
+    background: green;
+}
+#stop{
+    background: red;
+}
+#reset{
+    background: goldenrod;
+}
